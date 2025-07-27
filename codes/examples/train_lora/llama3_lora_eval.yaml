@@ -1,0 +1,21 @@
+### model
+model_name_or_path: /home/qihao/hfl/chinese-alpaca-2-7b/
+#model_name_or_path: /home/qihao/LLaMA-Factory/my_models_adapters_data/qihao_llama/my_trained_models/chinese_alpaca/chinese_alpaca_finetuned_3level_model/
+
+#adapter_name_or_path: /home/qihao/LLaMA-Factory/saves/Llama-2-7B-Chat/lora/train_pretrained_3level_adapter/
+trust_remote_code: true
+
+### method
+finetuning_type: lora
+
+### dataset
+task: cmmlu_test  # choices: [mmlu_test, ceval_validation, cmmlu_test]
+template: fewshot
+lang: en
+n_shot: 5
+ 
+### output
+save_dir: saves/mmlu/chinese_alpaca_base/cmmlu_test
+
+### eval
+batch_size: 2
