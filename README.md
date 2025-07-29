@@ -1,5 +1,5 @@
 # HSKBenchmark
-HSKBenchmark: Modeling Chinese Second Language Acquisition in Large Language Models through Curriculum Tuning (submitted to AAAI26 AI for Social Impact)
+HSKBenchmark: Modeling and Benchmarking Chinese Second Language Acquisition in Large Language Models through Curriculum Tuning (submitted to AAAI26 AI for Social Impact)
 
 [![Open in Spaces](https://img.shields.io/badge/🤗-Open%20in%20Spaces-blue)](https://huggingface.co/CharlesYeung001/HSKBenchmark_adapters/tree/main)
 
